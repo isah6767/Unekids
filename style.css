@@ -13,7 +13,7 @@ body{
 header{
     width: 100%;
     height: 80px;
-    background: #c2cdfe;
+    background: #81aafc;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,18 +24,24 @@ header{
     font-weight: bold;
     color: #fefefe;
 }
-.img li{
-  margin-right: px;
-}
+
 .hamburguer{
     display: none;
 }
 .nav-bar ul{
     display: flex;
 }
+
+.nav-bar img{ width: 200px;
+    height: 50px; }
+
+    .lupa{width: 50px;
+    height: 50px;}
+
+
 .nav-bar ul li a{
     display: block;
-    color: #fefefe;
+    color:#fefefe;
     font-size:clamp(12px, .8vw, 16px);
     padding: 10px 25px;
     border-radius: 50px;
@@ -48,8 +54,8 @@ color: #11101b;
 background: #fefefe;
 }
 .nav-bar ul li a.active{
-color: rgb(255, 153, 0);
-    background: #fefefe;
+color: black;
+    background:#6d9af4;
 }
 @media only screen and (max-width: 1320px){
     header{
@@ -202,4 +208,19 @@ display: flex;
 
 .nav-manual .manual-btn:hover{
     background-color: #1dc6e8;
+}
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: none;
+    width: 100%;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
 }
