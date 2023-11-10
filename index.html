@@ -10,10 +10,6 @@
   <body>
     <header>
       <div class="container">
-        <!--Barra de navegar e logo-->
-        <div class="logo">
-          <img src="img/UniKids 01.png" alt="" />
-        </div>
         <div class="hamburguer">
           <div class="line"></div>
           <div class="line"></div>
@@ -21,6 +17,9 @@
         </div>
         <div class="nav-bar">
           <ul>
+            <li>
+              <img src="img/UniKids 01.png" alt="">
+            </li>
             <li>
               <a href="" class="active">Home</a>
             </li>
@@ -36,13 +35,23 @@
             <li>
               <a href="" class="active">Para pintar</a>
             </li>
+            <li>
+              <img src="img/lupa.png" alt="" />
+              <input id="searchebar" type="search" name="searcher" list="suggestions"/>
+              <datalist id="suggestions">
+                <option value="Arte"></option>
+                <option value="Ciências">
+                <option value="Educação Física">
+                <option value="Geografia">
+                <option value="História">
+                <option value="Inglês">
+                <option value="Língua Portuguesa">
+                <option value="Matemática">
+              </datalist>
+            </li>
           </ul>
         </div>
-        <!--Barra de pesquisar-->
-        <input id="searchebar" type="text" name="searcher" />
-        <li class="img">
-          <img src="img/lupa.png" alt="" />
-        </li>
+
     </header>
     <!--Abertura do carousel-->
     <section class="slider">
