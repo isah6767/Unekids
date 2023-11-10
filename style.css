@@ -96,6 +96,14 @@ input{
     background-color: rgb(254, 243, 116);
  }
 
+ .cards-organization {
+    display: flex;
+    justify-content: center;
+ }
+
+ .cards-organization div {
+    margin: 50px auto;
+ }
 
  .imagem{
     display: flex;
@@ -188,9 +196,10 @@ display: flex;
     cursor: pointer;
 }
 .nav-manual .manual-btn:not(:last-child), 
-.nav-auto div not(:last-child){
+.nav-auto div:not(:last-child){
     margin-right: 10px;
 }
+
 .nav-manual .manual-btn:hover{
     background-color: #1dc6e8;
 }
