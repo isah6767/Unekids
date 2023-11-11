@@ -1,0 +1,42 @@
+*{margin: 0;
+    padding: 0;
+    }
+    
+    a{text-decoration: none;
+        color: black;
+        transition: 0.3;
+        width: 50px;
+        height: 50px;
+    }
+    
+    a:hover{opacity: 0.8;}
+    
+    .navlog{display: flex;}
+    
+    
+    nav{display: flex;
+    justify-content: space-around;
+    align-items: center;
+        background: #7ea9ff;
+        font-family:'Gill Sans', 'Gill Sans MT' 'Trebuchet MS', sans-serif;
+        max-width: 100%;
+        }
+        
+    .list{text-align: left;
+         height: 25%;}
+    
+    
+    .listntwo h2{ 
+        list-style: none;
+        display: flex;
+        gap: 100px;}
+
+
+
+        main{background-image:url(img/Design\ sem\ nome.jpg);
+            background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;}
+        
+

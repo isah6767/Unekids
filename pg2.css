@@ -34,7 +34,7 @@
 
 .space{height: 10vh;}
 .space2{height: 5vh;}
-.tx1.{padding: 3vh;}
+.tx1{padding: 3vh;}
 .tx2{padding: 5vh;}
 
 
@@ -44,16 +44,9 @@
 
 
 
-    main{background-image:url(img/Design\ sem\ nome.jpg);
-    background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-height: 100vh;}
 
 
 
-
-  
   .container-slider {
     display: flex;
     width: 100%;
@@ -99,3 +92,12 @@ height: 100vh;}
   #prev-button {
     transform: rotate(180deg);
   }
+
+
+
+
+  main{background-image:url(img/Design\ sem\ nome.jpg);
+    background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;}

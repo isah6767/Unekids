@@ -99,7 +99,7 @@ input{
     height: 500px;
     border-radius: 15px;
     margin-top: 100px;
-    background-color: rgb(254, 243, 116);
+    background-color: rgb(255, 234, 5);
  }
 
  .cards-organization {
@@ -133,16 +133,16 @@ input{
     height: 500px;
     border-radius: 15px;
     margin-top: 100px;
-    background: #c2cdfe;
+    background: #5b79ff;
  }
  .card3{
     width: 300px;
     height: 500px;
     border-radius: 15px;
     margin-top: 100px;
-    background:#baffcd;
+    background:#6aff94;
  }
- 
+  nav{display: flex;}
  
  footer {
     height: 30%;
@@ -209,3 +209,19 @@ display: flex;
 .nav-manual .manual-btn:hover{
     background-color: #1dc6e8;
 }
+
+main{background-image:url(img/Design\ sem\ nome.jpg);
+    background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;}
+
+
+#lupa img{width: 10px;
+height: 10px;
+display: flex;
+}
+
+.nav-bar{display: flex;}
+
+header{display: flex;}
