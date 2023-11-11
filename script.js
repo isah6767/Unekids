@@ -7,30 +7,39 @@ let currentSlide = 0;
 function hideSlider() {
   slider.forEach(item => item.classList.remove('on'))
 }
+document.addEventListener("DOMContentLoaded", function () {
+  let currentSlide = 0;
+  showSlide(currentSlide);
 
-function showSlider() {
-  slider[currentSlide].classList.add('on')
-}
+  function showSlide(n) {
+      const slides = document.getElementsByClassName("carousel-slide");
 
-function nextSlider() {
-  hideSlider()
-  if(currentSlide === slider.length -1) {
-    currentSlide = 0
-  } else {
-    currentSlide++
+      if (n >= slides.length) {
+          currentSlide = 0;
+      }
+
+      if (n < 0) {
+          currentSlide = slides.length - 1;
+      }
+
+      for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+
+      slides[currentSlide].style.display = "block";
   }
-  showSlider()
-}
 
-function prevSlider() {
-  hideSlider()
-  if(currentSlide === 0) {
-    currentSlide = slider.length -1
-  } else {
-    currentSlide--
+  function nextSlide() {
+      currentSlide++;
+      showSlide(currentSlide);
   }
-  showSlider()
-}
 
-btnNext.addEventListener('click', nextSlider)
-btnPrev.addEventListener('click', prevSlider)
+  function prevSlide() {
+      currentSlide--;
+      showSlide(currentSlide);
+  }
+
+  setInterval(function () {
+      nextSlide();
+  }, 3000);
+});

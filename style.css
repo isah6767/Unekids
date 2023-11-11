@@ -225,3 +225,17 @@ display: flex;
 .nav-bar{display: flex;}
 
 header{display: flex;}
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: none;
+    width: 100%;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
