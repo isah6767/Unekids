@@ -12,7 +12,7 @@
     
     a:hover{opacity: 0.8;}
     
-    .navlog{display: flex;}
+    
     
     
     nav{display: flex;
@@ -29,7 +29,8 @@
     .listntwo h2{ 
         list-style: none;
         display: flex;
-        gap: 100px;}
+        gap: 100px;
+      align-items: center;}
 
 
 .space{height: 10vh;}

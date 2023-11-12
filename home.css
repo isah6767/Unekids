@@ -51,14 +51,29 @@ left: 26%;}
     top: 45%;
     left: 30%;}
 
-.banner{position: relative;}
+    .tx3{padding: 5vh;}
 
-.sobre img {width: 60vh;
-border-radius: 10%;
-border-color: aquamarine;
-padding: 5vh;}
+.banner{position: relative;}
+.
+
+.left-img {
+
+margin: 70px;}
+
+
+.left-img img{width: 60vh;
+height: 200px;
+margin: 20px;}
+
 
 .sobre{display: flex;
 }
-.descrição {display: flex;
+.padding {display: flex;
 padding: 10vh;}
+
+.tx4{padding: 50px;}
+
+
+.Fundo-azul{  border-radius: 40px;
+    background-image: url(./img/estampa-azul.png);
+}
