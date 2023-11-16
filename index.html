@@ -5,15 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unekids</title>
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">">
   </head>
   <body>
     <header>
+      <nav>
       <div class="container">
-        <!--Barra de navegar e logo-->
-        <div class="logo">
-          <img src="img/UniKids 01.png" alt="" />
-        </div>
         <div class="hamburguer">
           <div class="line"></div>
           <div class="line"></div>
@@ -22,75 +20,79 @@
         <div class="nav-bar">
           <ul>
             <li>
-              <a href="" class="active">Home</a>
+              <img src="img/unikids log nav.png" alt="">
             </li>
             <li>
-              <a href="página2.html" class="active">Atividade</a>
+              <a href="home.html" class="active">Home</a>
             </li>
             <li>
-              <a href="" class="active">Datas comemorativas</a>
+              <a href="Galeria.html" class="active">Galeria</a>
             </li>
             <li>
-              <a href="" class="active">Historinhas</a>
+              <a href="" class="active">UniNews</a>
             </li>
             <li>
-              <a href="" class="active">Para pintar</a>
+              <a href="Matérias.html" class="active">Materias</a>
+            </li>
+            <li> <div id="lupa"><img src="img/lupa.png" >
+              <input id="searchebar" type="search" name="searcher" list="suggestions"/></li>
+              <datalist id="suggestions">
+                <option value="Ciências">
+                <option value="Geografia">
+                <option value="História">
+                <option value="Inglês">
+                <option value="Português">
+                <option value="Matemática">
+              </datalist>
             </li>
           </ul>
         </div>
-        <!--Barra de pesquisar-->
-        <input id="searchebar" type="text" name="searcher" />
-        <li class="img">
-          <img src="img/lupa.png" alt="" />
-        </li>
-    </header>
+      </div>
+   </nav>
+  </header>
+
+    <main>
     <!--Abertura do carousel-->
-    <section class="slider">
-      <div class="slider-content">
-        <input type="radio" name="btn-radio" id="radio1" />
-        <input type="radio" name="btn-radio" id="radio2" />
-        <input type="radio" name="btn-radio" id="radio3" />
-        <!-- <div class="slide-box primeiro"><img  class="img-desktop" src="img/42440.jpg" alt="slide 1"><a href=""><img src="" alt=""></a><img class="img-mobile" src="" alt="slide 2"></div> -->
-        <!-- <div class="slide-box segundo"><img  class="img-desktop" src="img/8550493.jpg" alt="slide 1"><a href=""><img src="" alt=""></a><img class="img-mobile" src="" alt="slide 3"></div><div class="slide-box terceiro"><img  class="img-desktop" src="" alt="slide 1"><a href=""><img src="" alt=""></a><img class="img-mobile" src="" alt="slide 4"></div><div class="nav-auto"><div class="auto-btn1"></div><div class="auto-btn2"></div><div class="auto-btn3"></div></div> -->
+    <!-- <div class="carousel-container">
+      <div class="carousel-slide">
+          <img src="img/42440.jpg" alt="Imagem 1">
       </div>
-      <div class="nav-manual">
-        <label for="radio1" class="manuel-btn"></label>
-        <label for="radio2" class="manuel-btn"></label>
-        <label for="radio3" class="manuel-btn"></label>
+      <div class="carousel-slide">
+          <img src="img/8550493.jpg" alt="Imagem 2">
       </div>
+      <div class="carousel-slide">
+          <img src="img/UniKids 01.png" alt="Imagem 3">
       </div>
-    </section>
+    </div> -->
     <!--Fechamento do carousel-->
-    <div class="container">
-      <div class="card">
-        <div class="imagem">
-          <img src="img/to-learn-2387228_1280.jpg" alt="">
+    <div class="cards-organization">
+      <div class="container">
+        <div class="card">
+          <div class="imagem">
+            <img src="" alt="">
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="card3">
-        <div class="imagem3">
-          <img src="img/gramática.png" alt="">
+      <div class="container">
+        <div class="card3">
+          <div class="imagem3">
+            <img src="" alt="">
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="card2">
-        <div class="imagem2">
-          <img src="img/quote_marks_curly_and_straight.jpg" alt="">
+      <div class="container">
+        <div class="card2">
+          <div class="imagem2">
+            <img src="" alt="">
+          </div>
         </div>
       </div>
     </div>
     <div id="content"></div>
-    <!--rodapé com icons-->
-    <main class="card">
-     
 
+    </main>
+    <!--rodapé com icons-->
     <footer>
-      <li>
-        <img src="img/UniKids 02.png" alt="">
-      </li>
       <li class="icons1">
         <img src="icons/e-mail.png" alt="">
       </li>
