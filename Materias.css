@@ -1,16 +1,48 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Permanent+Marker&display=swap');
-.portugues h1{
-    text-align: center;
-    font-family: "Agbalumo" ;
-    color: rgb(250, 163, 64);
-}
-.Matemática h1{
+.Portugues h1{
 text-align: center;
 font-family: "Agbalumo" ;
-color: yellow;
+color: rgb(248, 161, 0);
+}
+.matematica h1{
+text-align: center;
+font-family: "Agbalumo" ;
+color: rgb(90, 255, 211);
 }
 body{
-    background-image: url(img/Design\ sem\ nome.jpg);
+  
     margin: 15vh;
+}
+/*ESTILIZANDO CARDS*/
+.card h5{
+display: contents;
+align-items: center;
+width: 20%;
+border-radius: 70%;
+}
+.card-title1{
+    color: rgb(255, 242, 0);
+    font-family: "Agbalumo";
+}
+.card-title2{
+    color: chartreuse;
+    font-family: "Agbalumo"
+}
+.card-title3{
+    color: rgb(255, 0, 0);
+    font-family: "Agbalumo"
+}
+.card2{
+    align-items: center;
+    margin: 30px;
+display: contents;
+width: 30%;
+
+}
+.card3{
+    align-items: center;
+display: contents;
+align-items: center;
+width: 20%;
 }
