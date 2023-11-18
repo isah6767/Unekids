@@ -1,3 +1,4 @@
+/*Estilizando corpo do site*/
 *{
     margin: 0;
     padding: 0;
@@ -9,22 +10,48 @@
 body{
     background: #fefefe;
 }
-/* Estilizando navbar e links*/
+/*Estilizando Navbar*/
 header{
     width: 100%;
     height: 80px;
-    background: #81aafc;
+    background: #b9d0fd;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 100px;
+padding: 0 20px;
 }
 .logo{
     font-size: 28px;
     font-weight: bold;
     color: #fefefe;
 }
+.nav-bar ul li a:hover{
+color: #11101b;
+background: #fefefe;
+}
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Permanent+Marker&family=Roboto&display=swap');
+.nav-bar ul li a.active{
+    margin-top: auto;
+color: black;
+    background:#ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #ffa32a;
+}
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.nav-manual .manual-btn:not(:last-child), 
+.nav-auto div:not(:last-child){
+    margin-right: 10px;
+}
 
+.nav-manual .manual-btn:hover{
+    background-color: #050d0f;
+}
 .hamburguer{
     display: none;
 }
@@ -42,21 +69,30 @@ header{
 .nav-bar ul li a{
     display: block;
     color:#fefefe;
-    font-size:clamp(12px, .8vw, 16px);
     padding: 10px 25px;
-    border-radius: 50px;
+    border-radius: 20px;
     transition: 0.2s;
-    margin: 0 20px;
-}
+    margin: 0 40px;
 
-.nav-bar ul li a:hover{
-color: #11101b;
-background: #fefefe;
 }
-.nav-bar ul li a.active{
-color: black;
-    background:#6d9af4;
+.nav-manual{
+    position: absolute;
+    width: 100%;
+    margin-top: 35%;
+    display: flex;
+    justify-content: center;
 }
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav-manual .manual-btn:not(:last-child), 
+.nav-auto div:not(:last-child){
+    margin-right: 10px;
+}
+/*Nav bar termina aqui*/
 @media only screen and (max-width: 1320px){
     header{
         padding: 0 50px;
@@ -93,6 +129,7 @@ input{
     border-radius: 80px ;
   border-color: rgb(226, 202, 164) ;
 }
+/*Estilizando Cards*/
  .card{
     display: block;
     width: 300px;
@@ -142,8 +179,8 @@ input{
     margin-top: 100px;
     background:#f765ff;
  }
-  nav{display: flex;}
  
+ /*Estilizando footer/rodapé*/
  footer {
     height: 30%;
   margin-top: 15%;
@@ -151,17 +188,18 @@ input{
     color: #fff;
     padding: 20px;
     text-align: center;
-    background: #c2cdfe;
+    background: #ffaf59;
 }
 
 /* Estilizando links no rodapé */
 footer p {
-color: #091e83;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: #ffffff;
 }
 /* Estilo para o rodapé do autor */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Permanent+Marker&display=swap');
 .author {
-    font-size: 18px;
+    font-size: 20px;
+    font-family: "Agbalumo";
 }
    /*Estilizando carousel*/
 section.slider{
@@ -188,26 +226,8 @@ display: flex;
 .slide-box img{
     width: 100%;
 }
-.nav-manual{
-    position: absolute;
-    width: 100%;
-    margin-top: 35%;
-    display: flex;
-    justify-content: center;
-}
-.nav-manual .manual-btn, .nav-auto div{
-    border: 1px solid #1dc6e8;
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-.nav-manual .manual-btn:not(:last-child), 
-.nav-auto div:not(:last-child){
-    margin-right: 10px;
-}
-
 .nav-manual .manual-btn:hover{
-    background-color: #1dc6e8;
+    background-color: #050d0f;
 }
 
 main{background-image:url(./img/Banner\ 2.png);
@@ -217,13 +237,10 @@ background-size: cover;
 height: 100vh;}
 
 
-#lupa img{width: 10px;
-height: 10px;
-display: flex;
+#lupa img{width: 30px;
+height: 30px;
+
 }
-
-.nav-bar{display: flex;}
-
 header{display: flex;}
 .carousel-container {
     width: 100%;
