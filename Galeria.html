@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pg2.css">
-    <script src="script.js" defer></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="Galeria.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+    T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Galeria</title>
 </head>
 <body>
 
     <header>
           <nav>
-            <div class="list">
+            <div class="list"><!--Div pra alinhar a logo com a nav-->
                 <a href="Index.html"><img src="./img/unikids log nav.png" style="max-width: 30%;" class="navlog"></a></div>
     
-
-            <ul class="listntwo">
+<div class = "listas"><!--Deixar as li no centro dessa div , e a div ta no centro da nav-->
+            <ul class="listntwo"><!--Pading e margem-->
 
               <h2><li> <a href="Galeria.html"> Galeria </a></li>
                 <li> <a href=""> Uni News </a></li>
@@ -23,14 +25,14 @@
             </ul>
           </h2>
         
-</div> </div>
+</div> </div></div>
           </nav>
 
 
     </header>
     <main>
 
-   <section class="txf1"   
+   <section class="txf1" >
  <div class="container">
   <div class="space"></div>
   <!--Texto 1-->
@@ -40,7 +42,7 @@
 </h1></p></center><!--Tentar fazer uma box colorida--></div>
 
 <div class="tx2">
- <p><h3> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+ <p><h4> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
     when an unknown printer took a galley of type and scrambled it to make a type 
      book. It has survived not only five centuries, but also the leap into electronic 
@@ -48,68 +50,164 @@
       the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
       with desktop publishing software like Aldus PageMaker including versions of Lorem 
       Ipsum.
-      </h3></p>
+      </h></p>
 
 
 </div>
+
+
 
 <div class="tx1">
-  <center><p><h1>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  </h1></p></center><!--Tentar fazer uma box colorida--></div>
+<center><p><h1>
+ Evento de páscoa
+</h1></p></center><!--Tentar fazer uma box colorida--></div>
+<!--Carrocel 1-->
 
-  <div class="container-slider">
-    <button id="prev-button"><img src="./icons/arrow.jpg" alt="prev-button"></button>
-    <div class="container-images">
-      <img src="./img/menino-fazendo-alguns-exercicios-matematicos.jpg" alt="girl" class="slider on">
-      <img src="./img/to-learn-2387228_1280.jpg" alt="girl" class="slider">
-    </div>
-    <button id="next-button"><img src="./icons/arrow.jpg" alt="next-button"></button>
+
+<center> <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-
-
-  <div class="tx1">
-  <center><p><h1>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  </h1></p></center><!--Tentar fazer uma box colorida--></div>
-
-
-  <div class="container-slider">
-    <button id="prev-button"><img src="./icons/arrow.jpg" alt="prev-button"></button>
-    <div class="container-images">
-      <img src="./img/menino-fazendo-alguns-exercicios-matematicos.jpg" alt="girl" class="slider on">
-      <img src="./img/banner rosa.png" alt="girl" class="slider">
+ <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/pascoa1.jpg" class="d-block w-50"  style="border-radius: 50px; display: flexbox;">
     </div>
-    <button id="next-button"><img src="./icons/arrow.jpg" alt="next-button"></button>
-  </div>
-
-  <div class="tx1">
-  <center><p><h1>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  </h1></p></center><!--Tentar fazer uma box colorida--></div>
-
-  <div class="container-slider">
-    <button id="prev-button"><img src="./icons/arrow.jpg" alt="prev-button"></button>
-    <div class="container-images">
-      <img src="./img/menino-fazendo-alguns-exercicios-matematicos.jpg" alt="girl" class="slider on">
-      <img src="./img/banner rosa.png" alt="girl" class="slider">
+    <div class="carousel-item">
+      <img src="./img/pascoa2.jpg" class="d-block w-50"  style="border-radius: 50px;">
     </div>
-    <button id="next-button"><img src="./icons/arrow.jpg" alt="next-button"></button>
+    <div class="carousel-item">
+      <img src="./img/pascoa3.jpg" class="d-block w-50"  style="border-radius: 50px;">
+    </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> </center>
 
 
 
- </div>
- </div>
- 
-</div>
+<div class="tx1">
+<center><p><h1>
+ Dia das crianças
+</h1></p></center><!--Tentar fazer uma box colorida--></div>
+<!--Carrocel 1-->
+
+
+<center> <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+ <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/pascoa1.jpg" class="d-block w-50"  style="border-radius: 50px;">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/pascoa2.jpg" class="d-block w-50"  style="border-radius: 50px;">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/pascoa3.jpg" class="d-block w-50"  style="border-radius: 50px;">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> </center>
 
 
 
 
+<div class="tx1">
+<center><p><h1>
+ Dia do amigo
+</h1></p></center><!--Tentar fazer uma box colorida--></div>
+<!--Carrocel 1-->
 
+
+<center> <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+ <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/pascoa1.jpg" class="d-block w-50"  style="border-radius: 50px;">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/pascoa2.jpg" class="d-block w-50"  style="border-radius: 50px;">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/pascoa3.jpg" class="d-block w-50"  style="border-radius: 50px;">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> </center>
+
+
+
+
+<div class="tx1">>
+<center><p><h1>
+Primeiro dia de aula
+</h1></p></center><!--Tentar fazer uma box colorida--></div>
+<!--Carrocel 1-->
+
+
+<center> <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+ <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/pascoa1.jpg" class="d-block w-50"  style="border-radius: 50px;">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/pascoa2.jpg" class="d-block w-50"  style="border-radius: 50px;">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/pascoa3.jpg" class="d-block w-50"  style="border-radius: 50px;">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> </center>
      
 </main>
 
 </body>
 </html>
+
+
+<!--Jp, Editar plano de fundo
+Corrigir nav de busca
+padronizar os botoes da nav
+Fazer O forms-->

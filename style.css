@@ -191,15 +191,15 @@ input{
     height: 30%;
   margin-top: 15%;
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
-    background: #ffc484;
+    background: #ffc67b;
 }
 
 /* Estilizando links no rodapé */
 footer p {
-color: #ffffff;
+color: #000000;
 }
 .Paragrafo{
     font-family: 
@@ -236,10 +236,11 @@ display: flex;
 }
 .nav-manual .manual-btn:hover{
     background-color: #050d0f;
-}
-#lupa img{width: 30px;
-height: 30px;
 
+}
+#lupa img {
+    width: 30px;
+    height: 30px;
 }
 header{display: flex;}
 .carousel-container {
