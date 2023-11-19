@@ -13,7 +13,7 @@
 header{
     width: 100%;
     height: 80px;
-    background: #b9d0fd;
+    background: #dafff6;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -129,18 +129,24 @@ input{
   border-color: rgb(226, 202, 164) ;
 }
 /*Estilizando Cards*/
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Permanent+Marker&display=swap');
+.Paragrafo1{
+    font-family: "Agbalumo";
+    text-align: center;
+}
  .card{
     display: block;
     width: 300px;
     height: 500px;
     border-radius: 15px;
     margin-top: 100px;
-    background-color: rgb(255, 234, 5);
+    background-color: rgb(255, 247, 156);
  }
 
  .cards-organization {
     display: flex;
     justify-content: center;
+    color: #ffa32a;
  }
 
  .cards-organization div {
@@ -169,14 +175,14 @@ input{
     height: 500px;
     border-radius: 15px;
     margin-top: 100px;
-    background: #5b79ff;
+    background: #c9d3ff;
  }
  .card3{
     width: 300px;
     height: 500px;
     border-radius: 15px;
     margin-top: 100px;
-    background:#f765ff;
+    background:#fcc8ff;
  }
  
  /*Estilizando footer/rodapé*/
@@ -184,21 +190,23 @@ input{
     height: 30%;
   margin-top: 15%;
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
-    background: #ffaf59;
+    background: #ffc67b;
 }
 
 /* Estilizando links no rodapé */
 footer p {
-color: #ffffff;
+color: #000000;
+}
+.Paragrafo{
+    font-family: 
 }
 /* Estilo para o rodapé do autor */
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Permanent+Marker&display=swap');
 .author {
-    font-size: 20px;
-    font-family: "Agbalumo";
+    font-size: 10px;
 }
    /*Estilizando carousel*/
 section.slider{
@@ -227,12 +235,11 @@ display: flex;
 }
 .nav-manual .manual-btn:hover{
     background-color: #050d0f;
+
 }
-
-
-#lupa img{width: 30px;
-height: 30px;
-
+#lupa img {
+    width: 30px;
+    height: 30px;
 }
 header{display: flex;}
 .carousel-container {
