@@ -7,9 +7,8 @@
     font-family: Comic Sans MS, Comic Sans, cursive;
     box-sizing: border-box;
 }
-body{
-    background: #fefefe;
-}
+
+
 /*Estilizando Navbar*/
 header{
     width: 100%;
@@ -229,12 +228,6 @@ display: flex;
 .nav-manual .manual-btn:hover{
     background-color: #050d0f;
 }
-
-main{background-image:url(./img/Banner\ 2.png);
-    background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-height: 100vh;}
 
 
 #lupa img{width: 30px;
