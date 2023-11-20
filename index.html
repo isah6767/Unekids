@@ -2,11 +2,24 @@
 <html lang="pt-br">
   <head>
     <script src="https://kit.fontawesome.com/6dda5f6271.js" crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="img/favicon.png" rel="shortcut icon" title="Favicon">
     <title>Unekids</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"/>
+    <script>
+      window.addEventListener("DOMContentLoaded",() => {
+
+        let button = document.getElementById('lupa');
+       let campoOption = document.getElementById('searchebar');
+
+    button.addEventListener('click', ()=>{
+        console.info("Lupa acionada")
+      campoOption.classList.toggle('reveal');
+    });
+      })
     
+    </script>
   </head>
   <body>
     <header>
@@ -20,7 +33,7 @@
         <div class="nav-bar">
           <ul>
             <li>
-              <img src="img/unikids log nav.png" alt="">
+              <img src="img/unikids log nav.png" alt=""/>
             </li>
             <li>
               <a href="home.html" class="active">Home</a>
@@ -32,60 +45,74 @@
               <a href="" class="active">UniNews</a>
             </li>
             <li>
-              <a href="Matérias.html" class="active">Materias</a>
+              <a href="Materias.html" class="active">Materias</a>
             </li>
             <li>
-              <input id="searchebar" type="search" name="searcher" list="suggestions"/></li>
-              <datalist id="suggestions">
-                <option value="Ciências">
-                <option value="Geografia">
-                <option value="História">
-                <option value="Inglês">
-                <option value="Português">
-                <option value="Matemática">
+              <input id="searchebar" type="search" name="searcher" list="suggestions" placeholder="Pesquise"/>
+            </li>
+              <datalist id="suggestions" aria-placeholder="Pesquise Aqui">
+                <option value="Ciencias">Ciencias</option>
+                <option value="Geografia">Geografia</option>
+                <option value="Historia">Historia</option>
+                <option value="Ingles">Ingles</option>
+                <option value="Portugues">Portugues</option>
+                <option value="Matematica">Matematica</option>
               </datalist>
             </li>
-            <img id="lupa" src="img/lupa.png">
+            <img id="lupa" src="img/lupa.png"/>
           </ul>
         </div>
       </div>
    </nav>
+   <!--Card 1-->
   </header>
-
-    <main>
-    <!--Abertura do carousel-->
-    <!-- <div class="carousel-container">
-      <div class="carousel-slide">
-          <img src="img/42440.jpg" alt="Imagem 1">
-      </div>
-      <div class="carousel-slide">
-          <img src="img/8550493.jpg" alt="Imagem 2">
-      </div>
-      <div class="carousel-slide">
-          <img src="img/UniKids 01.png" alt="Imagem 3">
-      </div>
-    </div> -->
-    <!--Fechamento do carousel-->
     <h1 class="Paragrafo1">New noticias</h1>
     <div class="cards-organization">
       <div class="container">
-        <div class="card">
-          <div class="imagem">
-            <img src="" alt="">
+        <div class="card" style="background-image: url(https://static.escolakids.uol.com.br/2021/08/colocacao-pronominal.jpg);background-size: cover;">
+          <div class="card-img"></div>
+          <div class="card-content">
+            <a class="post__item__body__link lozad" 
+            title="Colocação pronominal - Não tenha mais dúvidas sobre colocação pronominal. Clique aqui!" 
+            href="https://escolakids.uol.com.br/portugues/colocacao-pronominal.htm" 
+            rel="noopener" 
+            data-background-image="https://static.escolakids.uol.com.br/2021/08/colocacao-pronominal.jpg" 
+          
+            data-loaded="true"></a>
+            <p>Et deserunt minim velit in veniam quis voluptate. Elit aliqua ad ea consequat.</p>
           </div>
         </div>
       </div>
+      <!--Card 2-->
       <div class="container">
-        <div class="card3">
-          <div class="imagem3">
-            <img src="" alt="">
+        <div class="card"  style="background-image: url(img/vrius.jpg);background-size: cover;">
+          <div class="card-img"> <a href="Noticias.html"></a></div>
+
+          <div class="card-content">
+            <a class="post__item__body__link lozad" 
+            title="Colocação pronominal - Não tenha mais dúvidas sobre colocação pronominal. Clique aqui!" 
+            href="https://escolakids.uol.com.br/portugues/colocacao-pronominal.htm" 
+            rel="noopener" 
+            data-background-image="https://static.escolakids.uol.com.br/2021/08/colocacao-pronominal.jpg" 
+          
+            data-loaded="true"></a>
+            <p class="texto1">Acesse aqui para saber quem é o responsavel por manter nossa saúde em dia!!</p>
           </div>
         </div>
       </div>
+      <!--Card 3-->
       <div class="container">
-        <div class="card2">
-          <div class="imagem2">
-            <img src="" alt="">
+        <div class="card" style="background-image: url(https://static.escolakids.uol.com.br/2021/08/colocacao-pronominal.jpg);background-size: cover;">
+          <div class="card-img"></div>
+          <div class="card-content">
+            <a class="post__item__body__link lozad" 
+            title="Colocação pronominal - Não tenha mais dúvidas sobre colocação pronominal. Clique aqui!" 
+            href="https://escolakids.uol.com.br/portugues/colocacao-pronominal.htm" 
+            rel="noopener" 
+            data-background-image="https://static.escolakids.uol.com.br/2021/08/colocacao-pronominal.jpg" 
+          
+            data-loaded="true"></a>
+            <p>Voluptate tempor velit commodo ea occaecat nisi.</p>
           </div>
         </div>
       </div>
@@ -129,6 +156,7 @@
   </form>
     <!--rodapé com icons-->
     <footer>
+      <ul>
       <li class="icons1">
         <img src="icons/e-mail.png" alt="">
       </li>
@@ -138,6 +166,7 @@
       <li class="icons3">
         <img src="icons/instagram.png" alt="">
       </li>
+    </ul>
      <p class="Paragrafo">Quem somos?</p>
      <p>Politica de privacidade</p>
       <p class="author">Desenvolvido por Any Isabelly Oliveira da Silva</p>
