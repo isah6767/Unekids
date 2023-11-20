@@ -9,6 +9,7 @@ function hideSlider() {
 }
 document.addEventListener("DOMContentLoaded", function () {
   let currentSlide = 0;
+  showSlide(currentSlide);
 
   function showSlide(n) {
       const slides = document.getElementsByClassName("carousel-slide");
