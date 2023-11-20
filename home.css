@@ -104,7 +104,10 @@ position: absolute;
 text-align: center;
 padding: 3vh;
 top: 28%;
-left: 26%;}
+left: 38%;}
+a{text-decoration: none;}
+.left-img img{border-radius: 100px;
+padding: 30px;}
 
 .tx2{
     position: absolute;
