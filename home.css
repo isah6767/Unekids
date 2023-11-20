@@ -151,6 +151,7 @@ padding: 10vh;}
 }
 
 /* Estilizando links no rodapé */
+
 footer p {
 color: #000000;
 }
@@ -167,3 +168,8 @@ color: #000000;
 li {
     list-style-type: none;
   }
+
+  body{background-image: url(./img/Banner\ 2.png)  ;
+    background-size: 100%;
+background-repeat: initial;
+}
