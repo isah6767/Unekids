@@ -155,9 +155,7 @@ padding: 10vh;}
 footer p {
 color: #000000;
 }
-.Paragrafo{
-    font-family: 
-}
+
 /* Estilo para o rodapé do autor */
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Permanent+Marker&display=swap');
 .author {
@@ -171,5 +169,9 @@ li {
 
   body{background-image: url(./img/Banner\ 2.png)  ;
     background-size: 100%;
-background-repeat: initial;
+    background-repeat: initial;
+}
+
+.hidden {
+    display: none;
 }
