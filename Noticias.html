@@ -7,6 +7,8 @@
     <link href="img/favicon.png" rel="shortcut icon" title="Favicon">
     <title>Notícias</title>
   <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="hidden.css">
+  <link rel="stylesheet" href="form.css">
     <script>
       window.addEventListener("DOMContentLoaded",() => {
 
@@ -169,7 +171,13 @@
     </ul>
      <p class="Paragrafo">Quem somos?</p>
      <p>Politica de privacidade</p>
-      <p class="author">Desenvolvido por Any Isabelly Oliveira da Silva</p>
+     <button onclick="toggleContent()">Desenvolvido por</button>
+     <section id="creators" class="hidden">
+       <p>Any Isabelly Oliveira da Silva<br>
+         João Paulo Hora dos Santos<br>
+         Rebeca Queiroz Azevedo</p>
+     </section>
     </footer>
   </body>
+  <script src="btn-creators.js"></script>
 </html>
