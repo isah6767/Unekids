@@ -87,6 +87,9 @@ color: black;
     border-radius: 50%;
     cursor: pointer;
 }
+#searchebar{
+    text-align: left 3px;
+}
 .nav-manual .manual-btn:not(:last-child), 
 .nav-auto div:not(:last-child){
     margin-right: 10px;
@@ -191,12 +194,13 @@ color: black;
     height: 61%;
  }
  .texto1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffda09;
  }
 
  .container .card-content
  {
     text-align: justify;
+   
  }
 
  .card-content>p
@@ -410,5 +414,8 @@ header{display: flex;}
 
 }
 
+
+
 /*Anti-span*/
 .naoexibir { display:none; }
+

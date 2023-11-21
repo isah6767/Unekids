@@ -1,0 +1,15 @@
+
+.img-container{
+    text-align: center;
+    color: rgb(255, 0, 0)
+}
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Permanent+Marker&display=swap');
+.qualidade>ul>li>h1{
+    color: rgb(255, 8, 0);
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin-left: 7px;
+}
