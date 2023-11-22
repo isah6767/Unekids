@@ -1,6 +1,6 @@
 *{margin: 0;
     padding: 0;
-    font-family:  Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;}
+     font-family: Comic Sans MS, Comic Sans, cursive;}
     
  /*Estilizando Navbar*/
 header{
@@ -167,9 +167,7 @@ li {
     list-style-type: none;
   }
 
-  body{background-image: url(./img/Banner\ 2.png)  ;
-    background-size: 100%;
-    background-repeat: initial;
+  
 }
 
 .hidden {
