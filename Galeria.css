@@ -125,12 +125,13 @@ footer p {
 color: #000000;
 }
 .Paragrafo{
-  font-family: 
+  font-family: "Agbalumo"
 }
 /* Estilo para o rodapé do autor */
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Permanent+Marker&display=swap');
 .author {
   font-size: 10px;
+  font-family: "Agbalumo";
 }
 
 .hidden {
@@ -234,6 +235,6 @@ color: #000000;
   
   background: none;
   color:#39f; 
-
+}
 
   
