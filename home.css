@@ -104,7 +104,10 @@ position: absolute;
 text-align: center;
 padding: 3vh;
 top: 28%;
-left: 26%;}
+left: 38%;}
+a{text-decoration: none;}
+.left-img img{border-radius: 100px;
+padding: 30px;}
 
 .tx2{
     position: absolute;
@@ -148,12 +151,11 @@ padding: 10vh;}
 }
 
 /* Estilizando links no rodapé */
+
 footer p {
 color: #000000;
 }
-.Paragrafo{
-    font-family: 
-}
+
 /* Estilo para o rodapé do autor */
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Permanent+Marker&display=swap');
 .author {
@@ -164,3 +166,10 @@ color: #000000;
 li {
     list-style-type: none;
   }
+
+  body{background-image: url(./img/Banner\ 2.png)  ;
+    background-size: 100%;
+    background-repeat: initial;
+}
+
+
