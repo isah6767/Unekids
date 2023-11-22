@@ -5,10 +5,8 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="img/favicon.png" rel="shortcut icon" title="Favicon">
-    <title>Notícias</title>
+    <title>Unekids</title>
   <link rel="stylesheet" href="style.css"/>
-  <link rel="stylesheet" href="hidden.css">
-  <link rel="stylesheet" href="form.css">
     <script>
       window.addEventListener("DOMContentLoaded",() => {
 
@@ -44,13 +42,13 @@
               <a href="Galeria.html" class="active">Galeria</a>
             </li>
             <li>
-              <a href="Noticias.html" class="active">UniNews</a>
+              <a href="index.html" class="active">UniNews</a>
             </li>
             <li>
               <a href="Materias.html" class="active">Materias</a>
             </li>
             <li>
-              <input id="searchebar" type="search" name="searcher" list="suggestions" placeholder="Pesquise"/>
+              <input id="searchebar" type="search" name="searcher" list="suggestions" placeholder="Pesquisar"/>
             </li>
               <datalist id="suggestions" aria-placeholder="Pesquise Aqui">
                 <option value="Ciencias">Ciencias</option>
@@ -71,7 +69,7 @@
     <h1 class="Paragrafo1">New noticias</h1>
     <div class="cards-organization">
       <div class="container">
-        <div class="card" style="background-image: url(https://static.escolakids.uol.com.br/2021/08/colocacao-pronominal.jpg);background-size: cover;">
+        <div class="card" style="background-image: url(img/Terapia.jpg);background-size: cover;">
           <div class="card-img"></div>
           <div class="card-content">
             <a class="post__item__body__link lozad" 
@@ -81,13 +79,13 @@
             data-background-image="https://static.escolakids.uol.com.br/2021/08/colocacao-pronominal.jpg" 
           
             data-loaded="true"></a>
-            <p>Et deserunt minim velit in veniam quis voluptate. Elit aliqua ad ea consequat.</p>
+            <p class="Paragrafo">Cuidando da mente das crianças: dicas para promover o bem-estar emocional.</p>
           </div>
         </div>
       </div>
       <!--Card 2-->
       <div class="container">
-        <div class="card"  style="background-image: url(img/vrius.jpg);background-size: cover;">
+        <div class="card"  style="background-image: url(img/Qualidade.jpg);background-size: cover;">
           <div class="card-img"> <a href="Noticias.html"></a></div>
 
           <div class="card-content">
@@ -98,7 +96,7 @@
             data-background-image="https://static.escolakids.uol.com.br/2021/08/colocacao-pronominal.jpg" 
           
             data-loaded="true"></a>
-            <p class="texto1">Acesse aqui para saber quem é o responsavel por manter nossa saúde em dia!!</p>
+            <p class="texto1">Acesse aqui para saber como manter uma boa qualidade de vida para a sua criança.</p>
           </div>
         </div>
       </div>
@@ -112,7 +110,6 @@
             href="https://escolakids.uol.com.br/portugues/colocacao-pronominal.htm" 
             rel="noopener" 
             data-background-image="https://static.escolakids.uol.com.br/2021/08/colocacao-pronominal.jpg" 
-          
             data-loaded="true"></a>
             <p>Voluptate tempor velit commodo ea occaecat nisi.</p>
           </div>
@@ -158,26 +155,26 @@
   </form>
     <!--rodapé com icons-->
     <footer>
+      <div class="icons" style="display: flex;"
       <ul>
+        <div class="1icon" style="display: flex;">
       <li class="icons1">
-        <img src="icons/e-mail.png" alt="">
-      </li>
+        <img src="icons/e-mail.png" alt=""> 
+      </li></div>
+      <div class="1icon" style="display: flex;">
       <li class="icons2">
         <img src="icons/chamada-telefonica.png" alt="">
-      </li>
+      </li></div>
+      <div class="3icon" style="display: flex;">
       <li class="icons3">
         <img src="icons/instagram.png" alt="">
       </li>
+    </div>
     </ul>
+    </div>
      <p class="Paragrafo">Quem somos?</p>
      <p>Politica de privacidade</p>
-     <button onclick="toggleContent()">Desenvolvido por</button>
-     <section id="creators" class="hidden">
-       <p>Any Isabelly Oliveira da Silva<br>
-         João Paulo Hora dos Santos<br>
-         Rebeca Queiroz Azevedo</p>
-     </section>
+      <p class="author">Desenvolvido por Any Isabelly Oliveira da Silva</p>
     </footer>
   </body>
-  <script src="btn-creators.js"></script>
 </html>
