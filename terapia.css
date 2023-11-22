@@ -1,56 +1,3 @@
-
-.img-container{
-    text-align: center;
-    color: rgb(255, 0, 0)
-}
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Permanent+Marker&display=swap');
-.qualidade>ul>li>h1{
-    color: rgb(255, 8, 0);
-    text-align: center;
-}
-.box{
-    display: flex;
-    justify-content: center;
-    margin-left: 7px;
-    text-align: center;
-}
-.para{
-    text-align: center;
-    color: rgb(255, 1, 1);
-}
-.para1{
-    text-align: center;
-    color: rgb(255, 1, 1);
-}
-.para3{
-    text-align: center;
-    color: rgb(255, 1, 1);
-}
-
-footer {
-    height: 30%;
-    width: 100%;
-    background-color: #333;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    background: #ffe07b;
-}
-
-/* Estilizando links no rodapé */
-footer p {
-color: #000000;
-}
-
-/* Estilo para o rodapé do autor */
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Permanent+Marker&display=swap');
-.author {
-    font-size: 10px;
-}
-.img-title{
-    text-align: center;
-}
-
 header{
     width: 100%;
     height: 80px;
@@ -134,4 +81,29 @@ color: black;
 .nav-manual .manual-btn:not(:last-child), 
 .nav-auto div:not(:last-child){
     margin-right: 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin-left: 7px;
+    text-align: center;
+}
+footer {
+    height: 30%;
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    background: #ffc67b;
+}
+
+/* Estilizando links no rodapé */
+footer p {
+color: #000000;
+}
+
+/* Estilo para o rodapé do autor */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Permanent+Marker&display=swap');
+.author {
+    font-size: 10px;
 }

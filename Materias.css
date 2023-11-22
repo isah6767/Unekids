@@ -46,3 +46,16 @@ display: contents;
 align-items: center;
 width: 20%;
 }
+footer {
+    height: 30%;
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    background: bisqu;
+}
+
+/* Estilizando links no rodapé */
+footer p {
+color: #000000;
+}
